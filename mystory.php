@@ -5,55 +5,54 @@
 ?>
 
 <html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
 
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" type="text/css" href="styles/all.css" media="all" />
 
-  <link rel="stylesheet" type="text/css" href="styles/all.css" media="all" />
+    <title>My Story</title>
+  </head>
 
-  <title>My Story</title>
-</head>
+  <body>
+    <?php include("includes/header.php"); ?>
+    <div class="main">
+      <div class="half-page">
+          <img class="image-sizedown left-half-page" src="images/autumn_photo.jpg"/>
+      </div><div class="half-page">
+        <article class="right-half-page">
+          Hiya, I’m a junior studying chemical engineering at Cornell University. I've
+          been into art since I was a little girl in elementary. Sadly, when it came to
+          high school, I abandoned visual art because I only had one elective slot, and
+          and so I pursued choir. I fell out of touch with my artistic side until my
+          summer job after freshman year, where I taught at a girls coding camp. One
+          of the courses I taught was about web design & photography, and hence my love
+          for design was renewed.<br><br>
 
-<body>
-  <?php include("includes/header.php"); ?>
-<div class="main">
-  <div class="half-page">
-      <img class="image-sizedown left-half-page" src="images/autumn_photo.jpg"/>
-  </div><div class="half-page">
-    <article class="right-half-page">
-      Hi, here is my story.
-      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam ac feugiat
-      eros. Nullam enim dolor, bibendum at laoreet nec, ornare et nisi. Suspendisse
-      sit amet molestie leo. In hac habitasse platea dictumst. Pellentesque convallis
-      lacus eget nisl tempor pharetra. Sed non diam id elit cursus tempor. Nunc ut
-      convallis arcu. Interdum et malesuada fames ac ante ipsum primis in faucibus.
+          My senior photographer, Ling Wang, inspired me to explore photography and
+          develop my own style. Sometimes I get caught up inclasses and life in general,
+          and so over a year ago, I started an extensive photography theme titled “A
+          Ceiling Fan” (it’s a pun ha). Basically, I look up and try to capture the
+          brilliance of those things that lie above us, either if they’re spectacular
+          or not. Many of the photos you see are from Cornell, but there are some from
+          around the world, too. I hope pictures of looking up inspire people to
+          always think positively and keep moving forward.<br><br>
 
-      Curabitur diam purus, gravida in feugiat in, pharetra vestibulum ante.
-      Pellentesque lobortis pretium commodo. Sed ullamcorper, erat fermentum semper
-      lacinia, mi enim placerat turpis, at vulputate leo ex ut leo. Nullam mollis
-      ut mi sed sodales. Vestibulum vehicula lobortis neque, a venenatis nulla efficitur
-      et. Vestibulum consequat orci nulla, sit amet ullamcorper est ultrices in.
-      Sed vulputate magna ac dui lobortis, id aliquet tellus sodales. Morbi efficitur
-      velit augue, vel sagittis nisi tincidunt sed. Donec malesuada faucibus libero
-      posuere dapibus. Aliquam in condimentum tortor. Aliquam dapibus ex et sem maximus
-      volutpat. In vulputate ut nulla id auctor.
+          About a year ago, I started seriously persuing calligraphy. I've always been
+          the one in my class that had the "typewriter" handwriting, so I started thinking
+          about making art out of that -- handlettering. I chose quotes that are obscure
+          and simple, but reveal a deep truth. People ask me what the trick is to my art,
+          but truthfully, it's just persistence to learn. The advantage of such a technological
+          society is that there are plenty of resources available to help you learn,
+          so it's never too late to start learning.<br><br>
 
-      Donec gravida, felis et bibendum dapibus, diam erat vulputate tellus, et
-      condimentum erat leo in orci. Suspendisse turpis turpis, dapibus quis massa
-      eu, ultricies scelerisque nisi. Vestibulum non fermentum justo. Vivamus ex
-      metus, gravida ac faucibus quis, condimentum id urna. Ut ornare aliquet sodales.
-      Donec varius malesuada augue et facilisis. Vestibulum ante ipsum primis in
-      faucibus orci luctus et ultrices posuere cubilia Curae; Cras blandit, nulla
-      non venenatis porta, turpis massa congue felis, ut gravida ex ligula nec augue.
-      Curabitur venenatis porta nibh nec euismod. Duis a pulvinar urna, in vestibulum
-      dui. Integer eget est a nibh luctus tincidunt vitae sit amet est.
-    </article>
-  </div>
-</div>
+          If you want to see more of my artwork, peek at my instagram @watts_up_dog.
+        </article>
+      </div>
+    </div>
 
-  <!--<div class="clear"></div>-->
+    <!--<div class="clear"></div>-->
 
-  <?php include("includes/footer.php"); ?>
-</body>
+    <?php include("includes/footer.php"); ?>
+  </body>
 </html>

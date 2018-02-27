@@ -250,3 +250,7 @@ input[type="submit"]:hover {
   color: #b5e0d3;
   border-color: #b5e0d3;
 }
+
+.link-tag{
+  color: #104373;
+}
